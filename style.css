@@ -1,0 +1,97 @@
+/* style.css */
+
+
+/* Metric boxes - Specific improvements */
+[data-testid="metric-container"] {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+[data-testid="metric-container"]:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+/* Metric value styling */
+[data-testid="metric-container"] div:first-child {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-bottom: 8px;
+}
+
+/* Metric label styling */
+[data-testid="metric-container"] div:nth-child(2) {
+    font-size: 1rem;
+    color: #6e6e73;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Specific metric colors */
+[data-testid="metric-container"]:nth-child(1) { /* Total Engines */
+    border-left: 4px solid #0071e3;
+}
+
+[data-testid="metric-container"]:nth-child(2) { /* Model Accuracy */
+    border-left: 4px solid #34c759;
+}
+
+[data-testid="metric-container"]:nth-child(3) { /* Engines Needing Maintenance */
+    border-left: 4px solid #ff3b30;
+}
+
+/* Select box styling */
+.stSelectbox>div>div>div {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 14px;
+    color: #1d1d1f;
+    transition: all 0.3s ease;
+}
+
+.stSelectbox>div>div>div:hover {
+    border-color: #0071e3;
+}
+
+/* Slider styling */
+.stSlider>div>div>div {
+    background-color: #0071e3 !important;
+}
+
+.stSlider>div>div>div:hover {
+    background-color: #0066cc !important;
+}
+
+.stSlider>div>div>div>div {
+    background-color: #ffffff;
+    border: 2px solid #0071e3;
+}
+
+/* Additional spacing for metric containers */
+.css-1v0mbdj {
+    margin-bottom: 1.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    [data-testid="metric-container"] {
+        margin-bottom: 1rem;
+    }
+
+    [data-testid="metric-container"] div:first-child {
+        font-size: 1.8rem;
+    }
+
+    [data-testid="metric-container"] div:nth-child(2) {
+        font-size: 0.9rem;
+    }
+}
