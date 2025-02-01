@@ -114,6 +114,6 @@ This project uses NASA’s **CMAPSS dataset**, a benchmark in prognostics and he
 1. **Clone the repository:**
 
    ```bash
-   https://github.com/ankur-mali/Predictive-Maintenance-Using-AI
+   https://github.com/ankur-mali/Predictive-Maintenance-Using-AI-
    
 
