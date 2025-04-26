@@ -28,6 +28,7 @@ The AeroEngine Health Dashboard is designed to:
 By processing the CMAPSS dataset, the dashboard transforms raw sensor readings and operational settings into actionable insights for predictive maintenance.
 
 ---
+![image](https://github.com/user-attachments/assets/f48769aa-df03-4d78-9727-295dcb13015a)
 
 ## Features
 
