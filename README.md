@@ -47,6 +47,8 @@ By processing the CMAPSS dataset, the dashboard transforms raw sensor readings a
 - **Downloadable Data:** Allows users to export sensor data as CSV files for further analysis.
 
 ---
+![image](https://github.com/user-attachments/assets/a6c76d31-6459-440c-94ad-163c1a4d4aca)
+
 
 ## Technology Stack
 
